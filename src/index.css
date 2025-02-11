@@ -1,0 +1,44 @@
+/* index.css */
+
+/* Container for the control interface */
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    color: #060606;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.control-panel h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.control-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.control-buttons .btn {
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+.status-display {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+}
